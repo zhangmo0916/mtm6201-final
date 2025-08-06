@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://kit.fontawesome.com/fed379a6c0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <a href="main" class="skip-link">Skip to main</a>
+  <header class="sticky-top py-4">
+    <nav class="navbar navbar-expand-md" style="background-color: #F8F7F4;" data-bs-theme="light">
+      <div class="container">
+        <div class="d-flex w-100 justify-content-between align-items-center">
+          <a class="navbar-brand" href="homepage.html">
+            <img src="images/logo.png" alt="pawstivefutures" width="142" height="48">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item px-4">
+                <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link text-nowrap" href="animal-profile.html">Adoption</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link text-nowrap" href="get-involved.html">Get Involved</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link text-nowrap" href="#">About Us</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link text-nowrap" href="#">Donate</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link text-nowrap" href="#">Community</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="btn btn-outline-custom ms-2 text-nowrap" href="#">My Account</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="hero-adoption">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="text-white text-center">
+            <h1 class="animate__animated animate__bounce">How to Raise an Animal?</h1>
+            <p class="lead fw-semibold">Caring for a pet means more than just feeding them—it's about building trust, providing comfort, and being there through every wag, purr, or quiet moment. With love, patience, and the right knowledge, every pet can thrive in a safe and happy home.</p>
+            <button class="btn btn-blue" type="button">Get Tips</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-4">
+      <div class="container">
+        <h2 class="text-center">Meeting with your future friends</h2>
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
+          <span class="fw-bold px-4">Find Your Pet</span>
+          <div class="dropdown btn-group py-4 px-4">
+            <button class="btn btn-outline-custom btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Gender</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Male</a></li>
+              <li><a class="dropdown-item" href="#">Female</a></li>
+            </ul>
+          </div>
+          <div class="dropdown btn-group px-4">
+            <button class="btn btn-outline-custom btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Species</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dog</a></li>
+              <li><a class="dropdown-item" href="#">Cat</a></li>
+              <li><a class="dropdown-item" href="#">Rabbit</a></li>
+            </ul>
+          </div>
+          <div class="px-4">
+            <button class="btn btn-blue" type="button">Search</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-2">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/dog-1.avif">
+                  <img src="images/dog-1.avif" alt="smiling golden retriever" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-body card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Daisy</h3>
+                  <p class="mb-1 px-2">Species:Dog</p>
+                  <p class="mb-1 px-2">Age: 6 years</p>
+                  <p class="mb-1 px-2">Gender:Female</p>
+                  <p class="mb-1 px-2">Temperament: Gentle, Loving.</p>
+                  <p class="mb-1 px-2">Medical History: Spayed, vaccinated, some dental issues.</p>
+                  <p class="mb-2 px-2">Special Needs: Needs a soft bed and a quiet environment.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/dog-rufus.jpg">
+                  <img src="images/dog-rufus.jpg" alt="black labrador" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Rufus</h3>
+                  <p class="mb-1 px-2">Species: Dog</p>
+                  <p class="mb-1 px-2">Age: 5 years</p>
+                  <p class="mb-1 px-2">Gender:Male</p>
+                  <p class="mb-1 px-2">Temperament: Intelligent, Playful.</p>
+                  <p class="mb-1 px-2">Medical History: Neutered, fully vaccinated.</p>
+                  <p class="mb-2 px-2">Special Needs: Needs to be groomed regularly.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/dog-lucy.jpg">
+                  <img src="images/dog-lucy.jpg" alt="running dog by the sea" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Lucy</h3>
+                  <p class="mb-1 px-2">Species: Dog</p>
+                  <p class="mb-1 px-2">Age: 2 years</p>
+                  <p class="mb-1 px-2">Gender: Female</p>
+                  <p class="mb-1 px-2">Temperament: Friendly, Affectionate.</p>
+                  <p class="mb-1 px-2">Medical History: Spayed, fully vaccinated.</p>
+                  <p class="mb-2 px-2">Special Needs: Requires regular grooming.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/cat-oliver.jpg">
+                  <img src="images/cat-oliver.jpg" alt="playing cat in blue background" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Oliver</h3>
+                  <p class="mb-1 px-2">Species: Cat</p>
+                  <p class="mb-1 px-2">Age: 1 year</p>
+                  <p class="mb-1 px-2">Gender: Male</p>
+                  <p class="mb-1 px-2">Temperament: Playful, Mischievous.</p>
+                  <p class="mb-1 px-2">Medical History: Neutered, up-to-date on vaccines.</p>
+                  <p class="mb-2 px-2">Special Needs: Needs interactive playtime daily.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/cat-sophie.jpg">
+                  <img src="images/cat-sophie.jpg" alt="white cat with orange background" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Sophie</h3>
+                  <p class="mb-1 px-2">Species: Cat</p>
+                  <p class="mb-1 px-2">Age: 3 years</p>
+                  <p class="mb-1 px-2">Gender: Female</p>
+                  <p class="mb-1 px-2">Temperament: Chatty, Affectionate.</p>
+                  <p class="mb-1 px-2">Medical History: Spayed, vaccinated, healthy.</p>
+                  <p class="mb-2 px-2">Special Needs: Prefers a calm environment; would do best as an only cat.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/cat-1.jpg">
+                  <img src="images/cat-1.jpg" alt="cat looking at left side" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Luna</h3>
+                  <p class="mb-1 px-2">Species: Cat</p>
+                  <p class="mb-1 px-2">Age: 2 years</p>
+                  <p class="mb-1 px-2">Gender: Female</p>
+                  <p class="mb-1 px-2">Temperament: Independent, Curious.</p>
+                  <p class="mb-1 px-2">Medical History: Spayed, up-to-date on vaccinations.</p>
+                  <p class="mb-2 px-2">Special Needs: Needs interactive toys to keep engaged.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/rabbit-cinnamon.jpg">
+                  <img src="images/rabbit-cinnamon.jpg" alt="rabbit looking at the hand" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Cinnamon</h3>
+                  <p class="mb-1 px-2">Species: Rabbit</p>
+                  <p class="mb-1 px-2">Age: 1 year</p>
+                  <p class="mb-1 px-2">Gender: Female</p>
+                  <p class="mb-1 px-2">Temperament: Friendly, Curious.</p>
+                  <p class="mb-1 px-2">Medical History: Spayed, vaccinated against RHD.</p>
+                  <p class="mb-2 px-2">Special Needs: Needs a spacious area to hop around; prefers veggies over pellets.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/rabbit-biscuit.jpg">
+                  <img src="images/rabbit-biscuit.jpg" alt="white rabbit" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Biscuit</h3>
+                  <p class="mb-1 px-2">Species: Rabbit</p>
+                  <p class="mb-1 px-2">Age: 2 years</p>
+                  <p class="mb-1 px-2">Gender: Male</p>
+                  <p class="mb-1 px-2">Temperament: Lively, Fun-loving.</p>
+                  <p class="mb-1 px-2">Medical History: Neutered, vaccinated against RHD.</p>
+                  <p class="mb-2 px-2">Special Needs: Friendly with kids, enjoys regular playtime.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/cat-leo.avif">
+                  <img src="images/cat-leo.avif" alt="cat staring at camera" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Leo</h3>
+                  <p class="mb-1 px-2">Species: Cat</p>
+                  <p class="mb-1 px-2">Age: 2 years</p>
+                  <p class="mb-1 px-2">Gender: Male</p>
+                  <p class="mb-1 px-2">Temperament: Energetic, Playful.</p>
+                  <p class="mb-1 px-2">Medical History: Neutered, vaccinated.</p>
+                  <p class="mb-2 px-2">Special Needs: Needs lots of stimulation and playtime.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/cat-mitten.jpg">
+                  <img src="images/cat-mitten.jpg" alt="yellow cat is stretching" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Mittens</h3>
+                  <p class="mb-1 px-2">Species: Cat</p>
+                  <p class="mb-1 px-2">Age: 4 years</p>
+                  <p class="mb-1 px-2">Gender: Female</p>
+                  <p class="mb-1 px-2">Temperament: Gentle, Easygoing.</p>
+                  <p class="mb-1 px-2">Medical History: Spayed, up-to-date on vaccinations.</p>
+                  <p class="mb-2 px-2">Special Needs: Regular grooming required.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/dog-bella.jpg">
+                  <img src="images/dog-bella.jpg" alt="grey dog looking at the left side" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Bella</h3>
+                  <p class="mb-1 px-2">Species: Dog</p>
+                  <p class="mb-1 px-2">Age: 3 years</p>
+                  <p class="mb-1 px-2">Gender: Female</p>
+                  <p class="mb-1 px-2">Temperament: Friendly, Energetic.</p>
+                  <p class="mb-1 px-2">Medical History: Up-to-date on vaccinations, spayed, no known health issues.</p>
+                  <p class="mb-2 px-2">Special Needs: Requires daily exercise; would thrive in an active household.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="position-relative">
+                <picture>
+                  <source srcset="images/dog-skye.jpg">
+                  <img src="images/dog-skye.jpg" alt="smiling border collie" class="card-img-top h-100 object-fit-cover">
+                </picture>
+                <div class="overlay-bottom"></div>
+                <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                  <h3 class="mb-2 px-2">Skye</h3>
+                  <p class="mb-1 px-2">Species: Dog</p>
+                  <p class="mb-1 px-2">Age: 4 years</p>
+                  <p class="mb-1 px-2">Gender: Male</p>
+                  <p class="mb-1 px-2">Temperament: Loyal, Protective.</p>
+                  <p class="mb-1 px-2">Medical History: Neutered, vaccinated, no health concerns.</p>
+                  <p class="mb-2 px-2">Special Needs: Experienced owner needed due to strong personality.</p>
+                  <div class="px-2 d-flex flex-column text center">
+                    <button class="btn btn-orange" type="button">Adopt</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <a href="animal-profile.html" class="btn btn-blue">Next Page</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="text-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="d-flex align-items-center mb-3">
+            <div class="logo-pf">
+              <img src="images/white-logo.png" alt="pawstivefutures" width="140" height="40">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h5 class="fw-bold mb-3">Contact Us</h5>
+          <ul class="list-group list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none"><i class="bi bi-twitter me-2"></i>Twitter</a></li>
+            <li><a href="#" class="text-light text-decoration-none"><i class="bi bi-facebook me-2"></i>Facebook</a></li>
+            <li><a href="#" class="text-light text-decoration-none"><i class="bi bi-instagram me-2"></i>Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="fw-bold mb-3">Adoption</h5>
+          <ul class="list-group list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">Animals Profile</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Adoption Process</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Adoption Resources</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="fw-bold mb-3">Get Involved</h5>
+          <ul class="list-group list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">Q & A</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="text-center mt-5">
+          <small>Pawsitive Future Copyright 2025</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
